@@ -10,6 +10,9 @@ body {
 article {
     margin-top: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    float: right;
 }
 
 img {
@@ -20,4 +23,13 @@ img {
 	margin-bottom: 300px;
     float: right;
     
+}
+nav {
+    width: 8%;
+    float: left;
+}
+
+footer {
+	width: 8%;
+    float: left;
 }
