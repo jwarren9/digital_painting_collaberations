@@ -18,7 +18,7 @@ body {
     padding-bottom: 0px;
 }
 article {
-    padding-top: 200px;
+    padding-top: 0px;
 }
 aside {
     text-align: center;
@@ -129,4 +129,12 @@ main {
 	padding-top: 200px;
     text-align: center;
     font-size: 1.2em;
+}
+header {
+    padding-top: 110px;
+	padding-bottom: 90px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: normal;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.25);
 }
