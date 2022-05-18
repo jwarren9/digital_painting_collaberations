@@ -18,31 +18,33 @@ body {
     padding-bottom: 0px;
 }
 article {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 aside {
     text-align: center;
-    margin-bottom: 26px;
-	margin-left: 43%;
-	margin-right: 43%;
-	font-size: 1.0em;
-	border-width: 3px;
-	border-style: outset;
-    border-color: buttonface;
-	padding-bottom: 3px;
-	padding-top: 3px;
-}
-aside:hover {
-    background-color: rgba(215,214,216,0.50);
+    margin-bottom: 30px;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 img {
-    width: 85%;
-    height: 85%;
 	display: block;
   	margin-left: auto;
  	margin-right: auto;
     margin-bottom: 300px;
 }
+.square {
+	width: 45%;
+    height: 45%;
+}
+.landscape {
+	width: 60%;
+    height: 60%;
+}
+.portrait{
+	width: 35%;
+    height: 35%;
+}
+
 nav {
     margin-top: 0px;
     margin-right: 0px;
@@ -82,13 +84,7 @@ nav {
     letter-spacing: 1px;
     position: fixed;
     right: 0px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    border-width: 3px;
-    border-style: outset;
-    border-color: buttonface;
+	margin-top: 13px;
 }
 .navlistitem2:hover {
 	background-color: rgba(215,214,216,0.50);
@@ -120,10 +116,17 @@ footer {
 a {
     color: rgba(0,0,0,1.00);
     text-decoration: none;
+	padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-width: 3px;
+    border-style: outset;
+    border-color: buttonface;
 }
-
 a:hover {
     text-decoration: underline;
+	background-color: rgba(215,214,216,0.50);
 }
 main {
 	padding-top: 200px;
